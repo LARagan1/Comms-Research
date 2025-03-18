@@ -58,6 +58,19 @@ cover how to launch GNU radio companion.
 \section{Ettus Research Tutorial}
 In addition to the GNU Radio Tutorials, I also started a starter course that Ettus 
 Research has published at \href{https://kb.ettus.com/images/4/47/Workshop_GnuRadio_Slides_20190507.pdf}{this site.}
-
+\\ \\
+Note: On page 100, there are a couple things that should be corrected.
+\begin{enumerate}
+    \item python-mako should be python3-mako instead 
+    \item python-docutils should be python3-docutils instead 
+    \item The third line should be corrected to git clone https://github.com/EttusResearch/uhd.git 
+    \item Many of the commands need sudo to work
+    \item You should probably run "sudo apt upgrade" before the cmake process 
+    \item Instead of using release_003_009_005 as they suggested, I just made a new branch. I used "sudo git checkout -b LARagan1/customBranch
+\end{enumerate}
+\\ \\
+Notice that the ethernet connection of the laptop needs to be set to 192.168.10.1 with a net 
+mask of 255.255.255.0 \\
+As I am writing this, I have not done so since I need Wi-Fi connectivity.
 
 \end{document}

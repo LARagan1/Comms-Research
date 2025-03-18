@@ -109,14 +109,8 @@ INPUT /home/engr1/.TinyTeX/texmf-dist/tex/latex/graphics-cfg/color.cfg
 INPUT /home/engr1/.TinyTeX/texmf-dist/tex/latex/graphics/mathcolor.ltx
 INPUT /home/engr1/.TinyTeX/texmf-dist/tex/latex/graphics/mathcolor.ltx
 INPUT /home/engr1/.TinyTeX/texmf-dist/tex/latex/graphics/mathcolor.ltx
-INPUT ./Luke_Ragan_Notes.out
-INPUT ./Luke_Ragan_Notes.out
-INPUT Luke_Ragan_Notes.out
-INPUT Luke_Ragan_Notes.out
-OUTPUT Luke_Ragan_Notes.pdf
-INPUT ./Luke_Ragan_Notes.out
-INPUT ./Luke_Ragan_Notes.out
 OUTPUT Luke_Ragan_Notes.out
+OUTPUT Luke_Ragan_Notes.pdf
 INPUT /home/engr1/.TinyTeX/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
 INPUT /home/engr1/.TinyTeX/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
 INPUT /home/engr1/.TinyTeX/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
@@ -142,7 +136,10 @@ INPUT ./Luke_Ragan_Notes.out
 INPUT ./Luke_Ragan_Notes.out
 INPUT /home/engr1/.TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1000.600pk
 INPUT /home/engr1/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
+INPUT /home/engr1/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
 INPUT /home/engr1/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
 INPUT /home/engr1/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb
 INPUT /home/engr1/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb
+INPUT /home/engr1/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb
+INPUT /home/engr1/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
 INPUT /home/engr1/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb

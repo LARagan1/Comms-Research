@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.13)  13 MAR 2025 22:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.13)  14 MAR 2025 14:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -253,7 +253,6 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 Package color Info: Driver file: pdftex.def on input line 149.
  (/home/engr1/.TinyTeX/texmf-dist/tex/latex/graphics/mathcolor.ltx))
 Package hyperref Info: Link coloring ON on input line 18.
- (./Luke_Ragan_Notes.out) (./Luke_Ragan_Notes.out)
 \@outlinefile=\write3
 \openout3 = `Luke_Ragan_Notes.out'.
 
@@ -277,28 +276,104 @@ Overfull \hbox (0.24724pt too wide) in paragraph at lines 48--49
 [1
 
 {/home/engr1/.TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+Underfull \hbox (badness 10000) in paragraph at lines 59--63
+
+ []
+
+
+Overfull \hbox (63.94518pt too wide) in paragraph at lines 66--67
+[]\OT1/cmr/m/n/10 The third line should be cor-rected to git clone https://github.com/EttusResearch/uhd.git 
+ []
+
+/home/engr1/Documents/Comms-Research/Comms-Research/Notes_and_documentation/Luke_Ragan_Notes/Luke_Ragan_Notes.tex:69: Missing $ inserted.
+<inserted text> 
+                $
+l.69     \item Instead of using release_
+                                        003_009_005 as they suggested, I jus...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+/home/engr1/Documents/Comms-Research/Comms-Research/Notes_and_documentation/Luke_Ragan_Notes/Luke_Ragan_Notes.tex:70: LaTeX Error: Command \end{enumerate} invalid in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.70 \end{enumerate}
+                    
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+/home/engr1/Documents/Comms-Research/Comms-Research/Notes_and_documentation/Luke_Ragan_Notes/Luke_Ragan_Notes.tex:70: Missing $ inserted.
+<inserted text> 
+                $
+l.70 \end{enumerate}
+                    
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (113.26732pt too wide) in paragraph at lines 69--70
+[]\OT1/cmr/m/n/10 Instead of us-ing release$[]03[]09[]05\OML/cmm/m/it/10 astheysuggested; Ijustmadeanewbranch:Iused\OT1/cmr/m/n/10 "\OML/cmm/m/it/10 sudogitcheckout \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+/home/engr1/Documents/Comms-Research/Comms-Research/Notes_and_documentation/Luke_Ragan_Notes/Luke_Ragan_Notes.tex:71: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 \\ \\
+          
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/home/engr1/Documents/Comms-Research/Comms-Research/Notes_and_documentation/Luke_Ragan_Notes/Luke_Ragan_Notes.tex:72: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.72 N
+      otice that the ethernet connection of the laptop needs to be set to 19...
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
 
 [2] (./Luke_Ragan_Notes.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
-Package rerunfilecheck Info: File `Luke_Ragan_Notes.out' has not changed.
-(rerunfilecheck)             Checksum: B1EE4FFAD5F83217210BE5989DD67C93;573.
+
+
+Package rerunfilecheck Warning: File `Luke_Ragan_Notes.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Luke_Ragan_Notes.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  B1EE4FFAD5F83217210BE5989DD67C93;573.
  ) 
 Here is how much of TeX's memory you used:
- 8911 strings out of 475171
- 137948 string characters out of 5766069
- 540039 words of memory out of 5000000
- 31812 multiletter control sequences out of 15000+600000
+ 8909 strings out of 475171
+ 137883 string characters out of 5766069
+ 539948 words of memory out of 5000000
+ 31808 multiletter control sequences out of 15000+600000
  564108 words of font info for 55 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 75i,6n,79p,347b,442s stack positions out of 10000i,1000n,20000p,200000b,200000s
- </home/engr1/.TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1000.600pk></home/engr1/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></home/engr1/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></home/engr1/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></home/engr1/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></home/engr1/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on Luke_Ragan_Notes.pdf (2 pages, 74814 bytes).
+ 75i,6n,79p,347b,441s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ </home/engr1/.TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1000.600pk></home/engr1/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></home/engr1/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></home/engr1/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></home/engr1/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></home/engr1/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></home/engr1/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></home/engr1/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></home/engr1/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on Luke_Ragan_Notes.pdf (2 pages, 106668 bytes).
 PDF statistics:
- 73 PDF objects out of 1000 (max. 8388607)
- 57 compressed objects within 1 object stream
- 7 named destinations out of 1000 (max. 500000)
- 33 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 82 PDF objects out of 1000 (max. 8388607)
+ 60 compressed objects within 1 object stream
+ 13 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
