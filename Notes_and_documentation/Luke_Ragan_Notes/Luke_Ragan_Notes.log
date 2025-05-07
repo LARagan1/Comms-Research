@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.13)  14 MAR 2025 14:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.13)  7 MAY 2025 09:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -276,77 +276,112 @@ Overfull \hbox (0.24724pt too wide) in paragraph at lines 48--49
 [1
 
 {/home/engr1/.TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 59--63
+Overfull \hbox (130.99588pt too wide) in paragraph at lines 59--65
+\OT1/cmtt/m/n/10 com / media / en / training-[]seminars / design-[]handbooks / Software-[]Defined-[]Radio-[]for-[]Engineers-[]2018 /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 72--76
 
  []
 
 
-Overfull \hbox (63.94518pt too wide) in paragraph at lines 66--67
+Overfull \hbox (63.94518pt too wide) in paragraph at lines 79--80
 []\OT1/cmr/m/n/10 The third line should be cor-rected to git clone https://github.com/EttusResearch/uhd.git 
  []
 
-/home/engr1/Documents/Comms-Research/Comms-Research/Notes_and_documentation/Luke_Ragan_Notes/Luke_Ragan_Notes.tex:69: Missing $ inserted.
-<inserted text> 
-                $
-l.69     \item Instead of using release_
-                                        003_009_005 as they suggested, I jus...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
 
+Underfull \hbox (badness 10000) in paragraph at lines 84--101
 
-/home/engr1/Documents/Comms-Research/Comms-Research/Notes_and_documentation/Luke_Ragan_Notes/Luke_Ragan_Notes.tex:70: LaTeX Error: Command \end{enumerate} invalid in math mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.70 \end{enumerate}
-                    
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-/home/engr1/Documents/Comms-Research/Comms-Research/Notes_and_documentation/Luke_Ragan_Notes/Luke_Ragan_Notes.tex:70: Missing $ inserted.
-<inserted text> 
-                $
-l.70 \end{enumerate}
-                    
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-Overfull \hbox (113.26732pt too wide) in paragraph at lines 69--70
-[]\OT1/cmr/m/n/10 Instead of us-ing release$[]03[]09[]05\OML/cmm/m/it/10 astheysuggested; Ijustmadeanewbranch:Iused\OT1/cmr/m/n/10 "\OML/cmm/m/it/10 sudogitcheckout \OMS/cmsy/m/n/10 ^^@
  []
 
 
-/home/engr1/Documents/Comms-Research/Comms-Research/Notes_and_documentation/Luke_Ragan_Notes/Luke_Ragan_Notes.tex:71: LaTeX Error: There's no line here to end.
+Underfull \hbox (badness 10000) in paragraph at lines 84--101
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 84--101
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 84--101
+
+ []
+
+
+
+[2]
+Overfull \hbox (5.22295pt too wide) in paragraph at lines 107--108
+[]\OT1/cmr/m/n/10 sudo apt-get in-stall -y libboost-all-dev libusb-1.0-0-dev python3-mako doxy-
+ []
+
+
+
+[3]
+Overfull \hbox (26.8896pt too wide) in paragraph at lines 124--125
+[]\OT1/cmr/m/n/10 To run the ex-e-cuta-bles in the ex-am-ples, nav-i-gate to /usr/local/lib/uhd/examples
+ []
+
+/home/engr1/Documents/Comms-Research/Comms-Research/Notes_and_documentation/Luke_Ragan_Notes/Luke_Ragan_Notes.tex:125: Missing $ inserted.
+<inserted text> 
+                $
+l.125     \item I was able to sucessfully run rx_
+                                                 ascii_art_dft and tx_wavefo...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+/home/engr1/Documents/Comms-Research/Comms-Research/Notes_and_documentation/Luke_Ragan_Notes/Luke_Ragan_Notes.tex:126: LaTeX Error: Command \item invalid in math mode.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.71 \\ \\
-          
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+l.126     \item
+                On page 145, I made the following changes
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+/home/engr1/Documents/Comms-Research/Comms-Research/Notes_and_documentation/Luke_Ragan_Notes/Luke_Ragan_Notes.tex:126: Missing $ inserted.
+<inserted text> 
+                $
+l.126     \item O
+                 n page 145, I made the following changes
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
 
 
-/home/engr1/Documents/Comms-Research/Comms-Research/Notes_and_documentation/Luke_Ragan_Notes/Luke_Ragan_Notes.tex:72: LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.72 N
-      otice that the ethernet connection of the laptop needs to be set to 19...
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+Overfull \hbox (250.5343pt too wide) in paragraph at lines 125--126
+[]\OT1/cmr/m/n/10 I was able to sucess-fully run rx$[]\OML/cmm/m/it/10 scii[]rt[]ftandtx[]aveformssimultaneouslytoverifythattheSDRsandsendingandreceivingcorrectly
+ []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 125--126
 
-[2] (./Luke_Ragan_Notes.aux)
+ []
+
+
+Overfull \hbox (67.25087pt too wide) in paragraph at lines 149--150
+[]\OT1/cmr/m/n/10 libqt5charts5-dev libqt5datavisualization5-dev libqt5gamepad5-dev libqt5gstreamer-
+ []
+
+
+Overfull \hbox (42.50075pt too wide) in paragraph at lines 149--150
+\OT1/cmr/m/n/10 dev libqt5scxml5-dev libqt5sensors5-dev libqt5serialbus5-dev libqt5serialport5-
+ []
+
+
+Overfull \hbox (28.47299pt too wide) in paragraph at lines 149--150
+\OT1/cmr/m/n/10 dev libqt5waylandclient5-dev libqt5waylandcompositor5-dev libqt5webkit5-
+ []
+
+
+
+[4]
+
+[5] (./Luke_Ragan_Notes.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -359,21 +394,21 @@ Package rerunfilecheck Warning: File `Luke_Ragan_Notes.out' has changed.
 
 Package rerunfilecheck Info: Checksums for `Luke_Ragan_Notes.out':
 (rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  B1EE4FFAD5F83217210BE5989DD67C93;573.
+(rerunfilecheck)             After:  68C779095944D0B125AC5D951D103E70;1043.
  ) 
 Here is how much of TeX's memory you used:
- 8909 strings out of 475171
- 137883 string characters out of 5766069
+ 8920 strings out of 475171
+ 137996 string characters out of 5766069
  539948 words of memory out of 5000000
- 31808 multiletter control sequences out of 15000+600000
- 564108 words of font info for 55 fonts, out of 8000000 for 9000
+ 31811 multiletter control sequences out of 15000+600000
+ 564723 words of font info for 57 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 75i,6n,79p,347b,441s stack positions out of 10000i,1000n,20000p,200000b,200000s
- </home/engr1/.TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1000.600pk></home/engr1/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></home/engr1/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></home/engr1/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></home/engr1/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></home/engr1/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></home/engr1/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></home/engr1/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></home/engr1/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on Luke_Ragan_Notes.pdf (2 pages, 106668 bytes).
+ 75i,6n,79p,633b,510s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ </home/engr1/.TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1000.600pk></home/engr1/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></home/engr1/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></home/engr1/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></home/engr1/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></home/engr1/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></home/engr1/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></home/engr1/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></home/engr1/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on Luke_Ragan_Notes.pdf (5 pages, 117156 bytes).
 PDF statistics:
- 82 PDF objects out of 1000 (max. 8388607)
- 60 compressed objects within 1 object stream
- 13 named destinations out of 1000 (max. 500000)
+ 108 PDF objects out of 1000 (max. 8388607)
+ 83 compressed objects within 1 object stream
+ 20 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

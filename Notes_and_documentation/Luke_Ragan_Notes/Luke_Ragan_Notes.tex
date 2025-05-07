@@ -55,6 +55,19 @@ tutorials for GNU Radio \href{https://wiki.gnuradio.org/index.php?title=Tutorial
 All of these tutorials are fairly self-explanatory. Additionally, the initial tutorials even
 cover how to launch GNU radio companion.
 
+\section{Learning SDR Basics}
+I found a textbook from Analog Devices, that breaks down the necessary portions of communication systems and
+signal processing that you need to know to effectively use the SDRs. I would greatly recommend taking
+a look at this text and at least reading the chapters that you do not feel as strong on. Especially
+if you are someone who has not yet taken communication systems or dsp, I would recommend reading the book.
+It is a great tool for learning what you need without having to learn everything. The text can be 
+found at \url{https://www.analog.com/media/en/training-seminars/design-handbooks/Software-Defined-Radio-for-Engineers-2018/SDR4Engineers.pdf}.
+
+\section{github}
+I also created a github for communications research at Liberty, but the only files that I ended up creating for
+said github are these notes. That being said, the repository can be found at \url{https://github.com/LARagan1/Comms-Research/tree/main}.
+If you would like to join, just send me an email, and I can give you permissions.
+
 \section{Ettus Research Tutorial}
 In addition to the GNU Radio Tutorials, I also started a starter course that Ettus 
 Research has published at \href{https://kb.ettus.com/images/4/47/Workshop_GnuRadio_Slides_20190507.pdf}{this site.}
@@ -66,11 +79,85 @@ Note: On page 100, there are a couple things that should be corrected.
     \item The third line should be corrected to git clone https://github.com/EttusResearch/uhd.git 
     \item Many of the commands need sudo to work
     \item You should probably run "sudo apt upgrade" before the cmake process 
-    \item Instead of using release_003_009_005 as they suggested, I just made a new branch. I used "sudo git checkout -b LARagan1/customBranch
+    \item Instead of using release\_003\_009\_005 as they suggested, I just made a new branch. I used sudo git checkout -b LARagan1/customBranch
 \end{enumerate}
-\\ \\
 Notice that the ethernet connection of the laptop needs to be set to 192.168.10.1 with a net 
 mask of 255.255.255.0 \\
 As I am writing this, I have not done so since I need Wi-Fi connectivity.
+\\ \\
+3/14/25: I have established connectivity with the USRP! It is definitely necessary to set the ip address
+to the afformentioned address. \\
+Also note that running any of the example files should include ./ before the command 
+\\ \\
+When I attempted to download and build GNU radio according to the instructions in the Ettus Tutorial,
+I had a lot of difficulty with making sure that all of the required packages were installed. 
+There are a couple things I think would help. Use python3 instead of python for install commands.
+For instance, sudo apt install python3-opengl instead of python-opengl. For packages that are 
+not able to be found, I found that the easiest way to go about it was to just use google. One of 
+note is that you should run sudo apt-get install libqt5gstreamer-dev \\
+Overall, I made sure that after the cmake command, everything was enabled except for gr-soapy 
+for gnuradio.
+\\ \\
+\subsection{Installing Packages:}
+I am now going to work on setting up the second laptop ENGR2 with UHD and GNURadio. To be as 
+helpful as possible, I will do my best to create a list of every package that needed to be installed
+and the commands used to install them.
+\begin{itemize}
+    \item sudo apt-get install -y git
+    \item sudo apt-get install -y libboost-all-dev libusb-1.0-0-dev python3-mako doxygen python3-docutils cmake build-essential
+    \item sudo apt-get install curl
+    \item sudo curl -O \url{http://launchpadlibrarian.net/648013231/libtinfo5_6.4-2_amd64.deb}
+    \&\& sudo dpkg -i libtinfo5\_6.4-2\_amd64.deb
+    \&\& sudo curl -O \url{http://launchpadlibrarian.net/648013227/libncurses5_6.4-2_amd64.deb}
+    \&\& sudo dpkg -i libncurses5\_6.4-2\_amd64.deb
+    \item sudo apt-get install libncurses-dev
+    \item sudo apt-get install python3-ruamel.yaml
+    \item sudo apt-get install dpdk
+    \&\& sudo apt-get upgrade
+    \&\& sudo apt-get install -y libdpdk-dev
+    \item sudo apt-get install -y python3-gevent
+    \item sudo apt-get install python3-pyudev
+    \item sudo apt-get install -y python3-pyroute2
+    \item Make sure you run sudo apt upgrade before any cmake
+    \item I installed libuhd4.8.0 instead of libuhd003
+    \item I installed tree to view the uhd images in tree format (like in the presentation)
+    \item To run the executables in the examples, navigate to /usr/local/lib/uhd/examples and make sure to put ./ in front of the command
+    \item I was able to sucessfully run rx_ascii_art_dft and tx_waveforms simultaneously to verify that the SDRs and sending and receiving correctly
+    \item On page 145, I made the following changes
+    \begin{itemize}
+        \item libcppunit-1.13-0v5 was replaced with libcppunit-1.15.0
+        \item Replace any "python" with "python3"
+        %\item To install qt4, go to \url{https://download.qt.io/archive/qt/4.8/}. Download the file, extract it with tar, and run the configure executable.
+        %\item run sudo apt-get upgrade and sudo apt-get update afterward
+        %\item For the purpose of time, I stopped working on setting up the second laptop after this point. I had many issues with the installation of qt4. I know that I did it on the first laptop, so it is possible, but I cannot remember how now.
+        \item Run sudo apt-get install libqt5gstreamer-dev for qt4
+        \item Replace python-wxgtk3.0 with python3-wxgtk4.0
+        \item There are several things that did not install. I am just moving on, and I will fix any problems that occur later on.
+    \end{itemize}
+    
+    \item Checkout the most recent version of gnuradio, not the one they recommend in the tutorial.
+    \item To make the cmake work correctly, I installed the following packages
+    \begin{itemize}
+        \item qjackctl
+        \item portaudio19-dev
+        \item python3-libiio
+        \item libsndfile-dev
+        \item libqwt-qt5-dev 
+        \item libiio-dev
+        \item libad9361-dev 
+        \item qtcreator
+        \item libqt5charts5-dev libqt5datavisualization5-dev libqt5gamepad5-dev libqt5gstreamer-dev libqt5networkauth5-dev libqt5opengl5-dev libqt5remoteobjects5-dev libqt5scxml5-dev libqt5sensors5-dev libqt5serialbus5-dev libqt5serialport5-dev libqt5svg5-dev libqt5texttospeech5-dev libqt5virtualkeyboard5-dev libqt5waylandclient5-dev libqt5waylandcompositor5-dev libqt5webkit5-dev libqt5webchannel5-dev libqt5websockets5-dev libqt5webview5-dev libqt5x11extras5-dev libqt5xmlpatterns5-dev
+        \item libzmq3-dev 
+    \end{itemize}
+    \item Make sure that the only disabled component is gr-soapy before moving on from the cmake
+
+\end{itemize}
+
+\section{Concluding}
+Unfortunately, I did not get nearly as far as I was hoping to with this project. I successfuly setup uhd
+and GNU Radio on Dr. Bae's laptops, verfied that the SDRs can send and receive simple signals, and 
+hopefully gathered a few helpful sources for future researchers to loook at. I hope that this serves
+as a helpful foundation. I look forward to seeing what research you are able to do!
+Thank you!
 
 \end{document}
